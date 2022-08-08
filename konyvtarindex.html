@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Secret</title>
+
+	<!-- ez műkszik -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF8" >
+	<link href="style.css" rel="stylesheet">
+</HEAD>
+<BODY>
+
+	<h2>Make a new secret</h2>
+
+			<form method="POST" action="felvitel.php" accept-charset="utf-8">
+
+			<label>id: </label>
+			<input type="text" name="id" />
+			<br>
+			<label>Secret name: </label>
+			<input type="text" name="secretName" />
+			<br>
+			<label>Secret: </label>
+			<input type="text" name="secret" />
+			<br>
+			<label>Owner: </label>
+			<input type="text" name="secretOwner" />
+			<br>
+
+			<input type="submit" value="Elküld" />
+
+			</form>
+	<h2>Get your name</h2>
+			<form method="POST" action="retrieveByName.php" accept-charset="utf-8">
+				<label> your name: </label>
+				<input type="text" name="secretOwner" />
+				<br>
+				<input type="submit" value="leker" />
+
+			</form>
+
+	<h2>Get your id</h2>
+			<form method="POST" action="retrieveById.php" accept-charset="utf-8">
+				<label> your secret's id: </label>
+				<input type="text" name="id" />
+				<br>
+				<input type="submit" value="leker" />
+
+			</form>
+
+</BODY>
+</HTML>

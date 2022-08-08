@@ -1,0 +1,45 @@
+label {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    min-width: 120px;
+    position: center;
+
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-flex;
+    vertical-align: bottom;
+    position: center;
+}
+
+body{
+
+    background-color: antiquewhite;
+}
+
+form{
+    width: 30%;
+    background-color: aliceblue;
+    position: center;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid cornflowerblue;
+}
+
+h2{
+    position: absolute;
+    left: 400px;
+}
+
+table{
+    width: 30%;
+    background-color: aliceblue;
+    position: center;
+    margin: auto;
+    padding: 50px;
+}
