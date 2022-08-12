@@ -24,7 +24,7 @@ if ( isset($id) && isset($secretName) &&
 
 	$sikeres = beszur($id, $secretName, $secret, $secretOwner);
 	if ($sikeres == true) {
-		header("Location: konyvtarindex.html");
+		header("Location: index.html");
 	} else {
 		echo "Hiba volt a beszúrásnál";
 	}

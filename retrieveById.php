@@ -30,15 +30,19 @@
 
         }
 
-        echo '<form method="POST" action="deleteAll.php" accept-charset="utf-8">';
-        echo '<td><input type="submit" value="delete"   /></td>';
-        echo '</form>';
 
 
 
+//function ret(){
+//    return $_POST['delid'];
+//}
 
 
         ?>
+<form method="POST" action="deleteById.php" accept-charset="utf-8">
+    <input type="text" name="id" />
+<td><input type="submit" value="delete"   /></td>
+</form>
 
 
 

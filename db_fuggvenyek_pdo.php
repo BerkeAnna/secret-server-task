@@ -76,6 +76,7 @@ function retrieveById($id){
     echo '<th>Secret name</th>';
     echo '<th>secret</th>';
     echo '<th>secretOwner</th>';
+    echo '<th>delete</th>';
     echo '</tr>';
 
     foreach ( $res as $current_row) {
@@ -85,7 +86,7 @@ function retrieveById($id){
             echo '<td>' . $current_row["secretName"] . '</td>';
             echo '<td>' . $current_row["secret"] . '</td>';
             echo '<td>' . $current_row["secretOwner"] . '</td>';
-
+            echo '<td><a href="deleteById.php"?id=<?php echo $current_row[id];?>">Delete</a></td>';
             echo '</tr>';
         }
     }
