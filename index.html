@@ -4,15 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Secret</title>
 
-	<!-- ez műkszik -->
 	<meta http-equiv="content-type" content="text/html; charset=UTF8" >
-	<link href="style.css" rel="stylesheet">
+	<link href="Style/style.css" rel="stylesheet">
 </HEAD>
 <BODY>
 
 	<h2>Make a new secret</h2>
 
-			<form method="POST" action="felvitel.php" accept-charset="utf-8">
+			<form method="POST" action="upload.php" accept-charset="utf-8">
 
 			<label>id: </label>
 			<input type="text" name="id" />
@@ -48,5 +47,16 @@
 
 			</form>
 
+	<script>
+		fetch("./users.php",{
+			method:"GET",
+			headers:{
+				"Accept":"text/xml"
+				//"Accept":"application/json"
+			}
+		}).then(response =>{
+			return response.text();
+		}).then(console.log);
+	</script>
 </BODY>
 </HTML>

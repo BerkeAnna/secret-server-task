@@ -1,6 +1,6 @@
 <?php
 
-include_once ("db_fuggvenyek_pdo.php");
+include_once("db_fuggvenyek_pdo.php");
 
 $conn= csatlakozas();
 
@@ -16,4 +16,3 @@ if(isset($id)) {
     header("Location: index.html");
 }
 
-   

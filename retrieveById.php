@@ -6,7 +6,7 @@
 
     <!-- ez műkszik -->
     <meta http-equiv="content-type" content="text/html; charset=UTF8" >
-    <link href="style.css" rel="stylesheet">
+    <link href="Style/style.css" rel="stylesheet">
 </HEAD>
 <BODY>
 <h2>Your secret</h2>
@@ -40,6 +40,7 @@
 
         ?>
 <form method="POST" action="deleteById.php" accept-charset="utf-8">
+    <label>Add the id:</label>
     <input type="text" name="id" />
 <td><input type="submit" value="delete"   /></td>
 </form>

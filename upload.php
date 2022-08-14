@@ -6,7 +6,7 @@
 
 	<!-- ez műkszik -->
 	<meta http-equiv="content-type" content="text/html; charset=UTF8" >
-	<link href="style.css" rel="stylesheet">
+	<link href="Style/style.css" rel="stylesheet">
 </HEAD>
 <BODY>
 <?php
